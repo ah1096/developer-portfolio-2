@@ -32,11 +32,11 @@ function App() {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                 <li className="nav-item">
-                  <a className="nav-link"  href="#">About</a>
+                  <a className="nav-link"  href="/#AboutSection">About</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Work</a>
+                  <a className="nav-link" href="/#ProjectSection">Work</a>
                 </li>
 
                 <li className="nav-item">
@@ -86,7 +86,7 @@ function App() {
 
               <div className="col-lg-6">
 
-                  <h1 className="display-5 fw-bold lh-1 mb-3">About Me</h1>
+                  <h1 className="display-5 fw-bold lh-1 mb-3" id="AboutSection">About Me</h1>
                     <div>
                         <p>Hi! My name is Alyssa, and I enjoy developing web applications.</p>
                         <p>Perfectly dust; grievous decaying charm. Aquiline form heavy-hearted state basement 
@@ -118,7 +118,7 @@ function App() {
 
   <div className="col-lg-6">
 
-<h1 className="display-5 fw-bold lh-1 mb-3">Things I've made</h1>
+<h1 className="display-5 fw-bold lh-1 mb-3" id="ProjectSection">Things I've made</h1>
   <div>
       
   <div id="projectCard" className="card mb-3">
@@ -158,12 +158,12 @@ function App() {
     </div>
 
     
-    <div id="projectCardSmall" className="card" style="width: 18rem;">
+    <div id="projectCardSmall" className="card">
       <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#">Go somewhere</a>
+        <h5 className="card-title">Project Name</h5>
+        <p className="card-text">Info about project</p>
+        <a href="#">Visit site</a>
       </div>
     </div>
 
