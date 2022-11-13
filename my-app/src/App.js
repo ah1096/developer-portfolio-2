@@ -13,9 +13,10 @@ const profilePic = {
 
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
 
       <div classNameName="navbar">
+        {/* ASK JOSH WHY ^^ THIS ^^ IS A THING??? classNameName works but className doesn't??? */}
         <nav className="navbar navbar-expand-lg bg-light">
 
           <div className="container-fluid">
@@ -50,7 +51,7 @@ function App() {
 
               <div className="form-check form-switch">
                 <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"></input>
-                <label id="langToggle" className="form-check-label" Htmlfor="flexSwitchCheckDefault"></label>
+                <label id="langToggle" className="form-check-label" htmlFor="flexSwitchCheckDefault"></label>
               </div>
 
               <div className="d-flex">
@@ -111,6 +112,76 @@ function App() {
 </div>
 
 {/* END ABOUT ME SECTION */}
+
+<div className="px-4 py-5 my-5 ">
+  <div className="container col-xxl-8 px-4 py-5">
+
+  <div className="col-lg-6">
+
+<h1 className="display-5 fw-bold lh-1 mb-3">Things I've made</h1>
+  <div>
+      
+  <div id="projectCard" className="card mb-3">
+          <div className="row g-0">
+
+            <div className="col-md-4">
+              <img src={profilePic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
+            </div>
+
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Featured Project: Project Name</h5>
+                <p className="card-text">Information about the project, what the requirements were, what tech was used to make it, what I learned from it.</p>
+                <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
+              </div>
+            </div>
+
+          </div>
+    </div>
+
+    <div id="projectCard" className="card mb-3">
+          <div className="row g-0">
+
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Featured project: Project Name</h5>
+                <p className="card-text">Information about the project, what the requirements were, what tech was used to make it, what I learned from it.</p>
+                <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <img src={profilePic.imageUrl} className="img-fluid rounded-end" alt="..."></img>
+            </div>
+
+          </div>
+    </div>
+
+    
+    <div id="projectCardSmall" className="card" style="width: 18rem;">
+      <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#">Go somewhere</a>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+
 
 
 
