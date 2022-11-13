@@ -259,6 +259,16 @@ function App() {
 {/* END CONTACT SECTION */}
 
 
+<div>
+    <footer className="footer mt-auto py-3 bg-light" id="footer">
+      <div className="container">
+          <span className="text-muted">
+            designed and built in ReactJS by Alyssa Holbert
+          </span>
+      </div>
+    </footer>
+</div>
+
 
 
 {/* vvvv DON'T TOUCH THESE DIVS vvvv */}
