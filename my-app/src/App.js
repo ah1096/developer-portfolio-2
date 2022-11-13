@@ -40,11 +40,11 @@ function App() {
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Blog</a>
+                  <a className="nav-link" href="/#BlogSection">Blog</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Contact</a>
+                  <a className="nav-link" href="/#ContactSection">Contact</a>
                 </li>
 
               </ul>
@@ -207,7 +207,7 @@ function App() {
       <div className="row flex-lg-row-reverse  g-5 py-5">
 
               <div className="col-lg-6">
-                  <h1 className="display-5 fw-bold lh-1 mb-3" id="AboutSection">Blog Posts</h1>
+                  <h1 className="display-5 fw-bold lh-1 mb-3" id="BlogSection">Blog Posts</h1>
                     <div>
                         <p>Follow my journey in learning web development.</p>
                         <p>See my most recent post on the left, or click the link below to view previous entries.</p>
@@ -243,6 +243,22 @@ function App() {
 
   </div>
 </div>
+
+{/* END BLOG SECTION */}
+
+<div>
+  <div className="px-4 py-5 my-5 text-center">
+      <h1 id="ContactSection" className="display-5 fw-bold">Contact Me</h1>
+          <div className="col-lg-6 mx-auto">
+              <p className="lead mb-4">Questions, offers, advice? Get in touch with me.</p>
+              <a className="btn btn-primary">say hi</a>
+          </div>
+  </div>
+</div>
+
+{/* END CONTACT SECTION */}
+
+
 
 
 {/* vvvv DON'T TOUCH THESE DIVS vvvv */}
