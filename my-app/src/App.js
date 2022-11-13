@@ -117,27 +117,30 @@ function App() {
   <div className="container col-xxl-8 px-4 py-5">
 
   <div className="col-lg-6">
-
-<h1 className="display-5 fw-bold lh-1 mb-3" id="ProjectSection">Things I've made</h1>
+    <h1 className="display-5 fw-bold lh-1 mb-3" id="ProjectSection">Things I've made</h1>
   <div>
-      
-  <div id="projectCard" className="card mb-3">
-          <div className="row g-0">
+  </div>
+  
 
-            <div className="col-md-4">
-              <img src={profilePic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
-            </div>
+    <div id="projectCard" className="card mb-3">
+            <div className="row g-0">
 
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Featured Project: Project Name</h5>
-                <p className="card-text">Information about the project, what the requirements were, what tech was used to make it, what I learned from it.</p>
-                <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
+              <div className="col-md-4">
+                <img src={profilePic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
               </div>
-            </div>
 
-          </div>
-    </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Featured Project: Project Name</h5>
+                  <p className="card-text">Information about the project, what the requirements were, what tech was used to make it, what I learned from it.</p>
+                  <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
+                </div>
+              </div>
+
+            </div>
+      </div>
+
+
 
     <div id="projectCard" className="card mb-3">
           <div className="row g-0">
@@ -157,24 +160,39 @@ function App() {
           </div>
     </div>
 
-    
-    <div id="projectCardSmall" className="card">
-      <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
-      <div className="card-body">
-        <h5 className="card-title">Project Name</h5>
-        <p className="card-text">Info about project</p>
-        <a href="#">Visit site</a>
-      </div>
     </div>
+    </div>
+    
 
 
+    <div className="row justify-content-center">
 
+      <div id="projectCardSmall" className="card col-4 mx-4">
+        <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+        <div className="card-body">
+          <h5 className="card-title">Project Name</h5>
+          <p className="card-text">Info about project</p>
+          <a href="#">Visit site</a>
+        </div>
+      </div>
 
-  </div>
+      <div id="projectCardSmall" className="card col-4 mx-4">
+        <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+        <div className="card-body">
+          <h5 className="card-title">Project Name</h5>
+          <p className="card-text">Info about project</p>
+          <a href="#">Visit site</a>
+        </div>
+      </div>
 
-</div>
-
-
+      <div id="projectCardSmall" className="card col-4 mx-4">
+        <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+        <div className="card-body">
+          <h5 className="card-title">Project Name</h5>
+          <p className="card-text">Info about project</p>
+          <a href="#">Visit site</a>
+        </div>
+      </div>
 
   </div>
 </div>
