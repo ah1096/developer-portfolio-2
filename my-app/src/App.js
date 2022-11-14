@@ -62,6 +62,7 @@ function App() {
 
           </div>
         </nav>
+        </div>
 
 {/* END NAVBAR */}
 
@@ -272,7 +273,7 @@ function App() {
 
 
 {/* vvvv DON'T TOUCH THESE DIVS vvvv */}
-      </div>
+      
     </div>
   );
 }
