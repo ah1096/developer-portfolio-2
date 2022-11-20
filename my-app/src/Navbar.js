@@ -43,7 +43,7 @@ export default function Navbar() {
               </div>
 
               <div className="d-flex">
-                <button className="btn btn-outline-primary" type="submit">Resumé</button>
+                <button className="btn btn-outline-light" type="submit">resumé</button>
               </div>
 
             </div>
