@@ -5,7 +5,7 @@ export default function Navbar() {
 
 <div classNameName="navbar">
         {/* ASK JOSH WHY ^^ THIS ^^ IS A THING??? classNameName works but className doesn't??? */}
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav id="navbar" className="navbar navbar-expand-lg">
 
         <div className="container-fluid">
 

@@ -1,11 +1,11 @@
-import AIprofilePic from './images/headshot.jpg';
-const profilePic = {
-    name: 'AIprofilePic',
-    imageUrl: AIprofilePic,
+import him from './images/him.jpg';
+
+const fillerpic = {
+    name: 'fillerpic',
+    imageUrl: him,
     imageHeight: 300,
     imageWidth: 300,
 };
-
 
 
 export default function BlogPosts(){
@@ -32,7 +32,7 @@ export default function BlogPosts(){
                     <div id="blogTeaseCard" className="card mb-3">
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={profilePic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
+                                <img src={fillerpic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
                             </div>
 
                             <div className="col-md-8">

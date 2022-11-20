@@ -1,12 +1,11 @@
-import AIprofilePic from './images/headshot.jpg';
-const profilePic = {
-    name: 'AIprofilePic',
-    imageUrl: AIprofilePic,
+import him from './images/him.jpg';
+
+const fillerpic = {
+    name: 'fillerpic',
+    imageUrl: him,
     imageHeight: 300,
     imageWidth: 300,
 };
-
-
 
 
 export default function Projects(){
@@ -24,7 +23,7 @@ export default function Projects(){
             <div className="row g-0">
 
               <div className="col-md-4">
-                <img src={profilePic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
+                <img src={fillerpic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
               </div>
 
               <div className="col-md-8">
@@ -57,7 +56,7 @@ export default function Projects(){
             </div>
 
             <div className="col-md-4">
-              <img src={profilePic.imageUrl} className="img-fluid rounded-end" alt="..."></img>
+              <img src={fillerpic.imageUrl} className="img-fluid rounded-end" alt="..."></img>
             </div>
 
           </div>
@@ -68,10 +67,10 @@ export default function Projects(){
     
 
 
-    <div className="row justify-content-center">
+    <div className="row d-flex justify-content-center w-75">
 
       <div id="projectCardSmall" className="card col-4 mx-auto">
-        <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+        <img src={fillerpic.imageUrl} className="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">Tic Tac Toe</h5>
           <p className="card-text">A tic tac toe game coded in Javascript.</p>
@@ -80,7 +79,7 @@ export default function Projects(){
       </div>
 
       <div id="projectCardSmall" className="card col-4 mx-auto">
-        <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+        <img src={fillerpic.imageUrl} className="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">2Dew</h5>
           <p className="card-text">A to-do list app that utilizes local storage to keep user data.</p>
@@ -89,7 +88,7 @@ export default function Projects(){
       </div>
 
       <div id="projectCardSmall" className="card col-4 mx-auto">
-        <img src={profilePic.imageUrl} className="card-img-top" alt="..."></img>
+        <img src={fillerpic.imageUrl} className="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">Mind Reader</h5>
           <p className="card-text">A fortune-teller that utilizes state manipulation to change page views.</p>
