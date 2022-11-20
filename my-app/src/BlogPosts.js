@@ -23,7 +23,7 @@ export default function BlogPosts(){
                             <p>See my most recent post on the left, or click the link below to view previous entries.</p>
                         </div>
 
-                        <a className="btn btn-primary">
+                        <a id="linkbutton" className="btn btn-primary">
                         See more posts
                         </a>
                 </div>

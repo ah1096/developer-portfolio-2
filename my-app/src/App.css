@@ -48,12 +48,20 @@ body {
   background-color: #000000;
 }
 
-h1 {
+h1, h7 {
   color: #f67b8f;
 }
 
-p {
-  color: #ffc1cc;
+h5 {
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.linkbutton {
+  background-color: #f67b8f;
 }
 
 .navbar {
@@ -78,6 +86,105 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .form-switch .form-check-input:focus {
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='pink'/%3e%3c/svg%3e");
 }
+/* x///////////////////x big card hover effect css x////////////////////x */
 
 
+/* .hover-imgBW {
+  color: #fff;
+  display: inline-block;
+  margin: 8px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.hover-imgBW * {
+  transition: all 0.45s ease;
+}
+
+.hover-imgBW::before,
+.hover-imgBW::after {
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  transition: all 0.3s ease;
+  opacity: .5;
+  transform: scaleY(2);
+}
+
+.hover-imgBW img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.hover-imgBW:hover::before,
+.hover-imgBW:hover::after {
+  transform: scale(1);
+  opacity: 0;
+}
+
+.hover-imgBW:hover > img {
+  opacity: 1;
+} */
+
+
+/* x///////////////////x small card hover effect css x////////////////////x */
+
+.hover-img {
+  color: #fff;
+  display: inline-block;
+  margin: 8px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.hover-img * {
+  transition: all 0.45s ease;
+}
+
+.hover-img::before,
+.hover-img::after {
+  background-color: #f67b8f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  transition: all 0.3s ease;
+  opacity: .5;
+  transform: scaleY(2);
+}
+
+.hover-img img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.hover-img:hover::before,
+.hover-img:hover::after {
+  transform: scale(1);
+  opacity: 0;
+}
+
+.hover-img:hover > img {
+  opacity: 1;
+}
+
+#projectCard{
+  background-color: #ffc1cc;
+}
+
+#projectCardSmall {
+  background-color:#000000;
+}
 

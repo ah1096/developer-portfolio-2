@@ -2,8 +2,8 @@ import AIprofilePic from './images/headshot.jpg';
 const profilePic = {
     name: 'AIprofilePic',
     imageUrl: AIprofilePic,
-    imageHeight: 300,
-    imageWidth: 300,
+    imageHeight: 450,
+    imageWidth: 450,
 };
 
 
@@ -16,15 +16,19 @@ export default function AboutMe(){
         <div className="row flex-lg-row-reverse  g-5 py-5">
 
             <div className="col-10 col-sm-8 col-lg-6">
-                <img className="d-block mx-lg-auto img-fluid" 
-                    loading="lazy" 
-                    alt="my profile photo from Awesome Inc" 
-                    src= {profilePic.imageUrl}
-                    style={{
-                        width: profilePic.imageWidth,
-                        height: profilePic.imageHeight
-                        }}
-                ></img>
+
+                {/* <span className="hover-img"> */}
+                    <img id="profilephoto" className="d-block mx-lg-auto img-fluid" 
+                        loading="lazy" 
+                        alt="my profile photo from Awesome Inc" 
+                        src= {profilePic.imageUrl}
+                        style={{
+                            width: profilePic.imageWidth,
+                            height: profilePic.imageHeight
+                            }}
+                    ></img>
+                {/* </span> */}
+
             </div>
 
             <div className="col-lg-6">
@@ -51,6 +55,8 @@ export default function AboutMe(){
                         <li>Django</li>
                         <li>Bootstrap</li>
                     </ul>
+
+                    <button id="linkbutton" type="button" class="btn btn-primary">Learn more</button>
             </div>
         </div>
         </div>
