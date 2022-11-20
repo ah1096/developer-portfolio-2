@@ -60,8 +60,18 @@ p{
   color: white;
 }
 
-.linkbutton {
+#linkbutton {
+  color: white;
   background-color: #f67b8f;
+  border-radius: 7px;
+  border: 1px solid #f67b8f;
+  padding: 10px;
+}
+
+#linkbutton:hover {
+  color:#f67b8f;
+  background-color: white;
+  border: 1px solid #f67b8f;
 }
 
 .navbar {
