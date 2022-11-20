@@ -30,7 +30,10 @@ export default function Projects(){
               <div className="col-md-8">
                 <div className="card-body">
                   <h5 className="card-title">Featured Project: Neighborly</h5>
-                  <p className="card-text">Information about the project, what the requirements were, what tech was used to make it, what I learned from it.</p>
+                  <p className="card-text">My final project for Awesome Inc's Web Developer Bootcamp is 
+                                          social media site focused on building local connections, 
+                                          getting to know your neighbors, and creating a smalle-scale barter economy 
+                                          with other individuals in your community.</p>
                   <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
                 </div>
               </div>
@@ -46,7 +49,9 @@ export default function Projects(){
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Featured project: Weather App</h5>
-                <p className="card-text">Information about the project, what the requirements were, what tech was used to make it, what I learned from it.</p>
+                <p className="card-text">The first "real" project that I made for Awesome Inc's bootcamp, 
+                                        refactored with cleaner code and more design features.
+                                        View your current location's weather or search for a different location.</p>
                 <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
               </div>
             </div>

@@ -32,9 +32,13 @@ export default function AboutMe(){
                 <h1 className="display-5 fw-bold lh-1 mb-3" id="AboutSection">About Me</h1>
                     <div>
                         <p>Hi! My name is Alyssa, and I enjoy developing web applications.</p>
-                        <p>Perfectly dust; grievous decaying charm. Aquiline form heavy-hearted state basement 
-                            I fear that ill health? Vault abandon fall relic doorstep providence perfume allurem
-                            nt suffocating pendulum disquiet. Cartilaginous coach and six stricken suffocating da
+                        <p>
+                            My coding journey started in the early days of the COVID-19 pandemic, when I
+                            was working as an assistant language teacher in Japan. I took an online course
+                            in introductory HTML, CSS and Javascript and discovered my love for coding.
+                            I returned home to the States in August of 2022 and enrolled in Awesome Inc's 
+                            Web Developer Bootcamp to further my knowledge of coding
+                            and Agile development.
                         </p>
                         <p>Some of the technologies and languages I've worked with include:</p>
                     </div>
