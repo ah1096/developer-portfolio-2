@@ -10,7 +10,7 @@ const fillerpic = {
 
 export default function BlogPosts(){
     return(
-<div>
+<div className="vh-100">
     <div className="px-4 py-5 my-5 ">
 
         <div className="container col-xxl-8 px-4 py-5">

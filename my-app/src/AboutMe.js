@@ -9,7 +9,7 @@ const profilePic = {
 
 export default function AboutMe(){
     return(
-<div>
+<div className="vh-100" id="AboutSection">
     <div className="px-4 py-5 my-5 ">
 
     <div className="container col-xxl-8 px-4 py-5">
@@ -33,7 +33,7 @@ export default function AboutMe(){
 
             <div className="col-lg-6">
 
-                <h1 className="display-5 fw-bold lh-1 mb-3" id="AboutSection">About Me</h1>
+                <h1 className="display-5 fw-bold lh-1 mb-3" >About Me</h1>
                     <div>
                         <p>Hi! My name is Alyssa, and I enjoy developing web applications.</p>
                         <p>

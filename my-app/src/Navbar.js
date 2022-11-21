@@ -1,3 +1,7 @@
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Navbar() {
@@ -43,7 +47,9 @@ export default function Navbar() {
               </div>
 
               <div className="d-flex">
-                <button className="btn btn-outline-light" type="submit">resumé</button>
+                <button className="btn btn-outline-light" type="submit">
+                  resumé <FontAwesomeIcon icon={faDownload} />
+                  </button>
               </div>
 
             </div>

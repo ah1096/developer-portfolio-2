@@ -10,12 +10,12 @@ const fillerpic = {
 
 export default function Projects(){
     return(
-<div>
+<div id="ProjectSection">
 <div className="px-4 py-5 my-5">
-  <div className="container col-xxl-8 px-4 py-5 ">
+  <div className="container col-xxl-8 px-4 py-5 text-center">
 
-    <div className="col-lg-6 text-center">
-      <h1 className="display-5 fw-bold lh-1 py-5" id="ProjectSection">Things I've made</h1>
+    <div className="col-lg-6">
+      <h1 className="display-5 fw-bold lh-1 mb-8">Things I've made</h1>
     </div>
   
 
