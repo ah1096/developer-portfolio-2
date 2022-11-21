@@ -41,10 +41,18 @@ export default function Navbar() {
 
               </ul>
 
-              <div className="form-check form-switch">
-                <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"></input>
-                <label id="langToggle" className="form-check-label" htmlFor="flexSwitchCheckDefault"></label>
-              </div>
+            {/* Get help on the language toggle */}
+              <ul id="language-toggle" classname="mt-4">
+                <li className="d-inline">🇯🇵</li>
+                <li className="d-inline">
+                  <div className="form-check form-switch me-0">
+                    <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"></input>
+                    <label id="langToggle" className="form-check-label" htmlFor="flexSwitchCheckDefault"></label>
+                  </div>
+                </li>
+                <li className="d-inline">🇬🇧</li>
+              </ul>
+
 
               <div className="d-flex">
                 <button className="btn btn-outline-light" type="submit">

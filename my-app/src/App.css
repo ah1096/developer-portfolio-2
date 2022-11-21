@@ -39,9 +39,14 @@
   }
 }
 
+#language-toggle li{
+  float: right;
+}
+
 #skill-list{
   columns: 2;
   color: #ffc1cc;
+  list-style: none;
 }
 
 body {
