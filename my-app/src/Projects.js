@@ -2,6 +2,7 @@ import him from './images/him.jpg';
 import todo from './images/todolist.gif';
 import alarm from './images/alarmclock.gif';
 import neighborly from './images/neighborly.gif';
+import mindreader from '.images/mindereadergif';
 
 const fillerpic = {
     name: 'fillerpic',
@@ -27,6 +28,13 @@ const alarmgif = {
 const neighborlygif = {
   name: 'neighborlygif',
   imageUrl: neighborly,
+  imageHeight: 300,
+  imageWidth: 300,
+}
+
+const mindreadergif = {
+  name: 'mindreadergif',
+  imageUrl: mindreader,
   imageHeight: 300,
   imageWidth: 300,
 }
@@ -128,13 +136,13 @@ export default function Projects(){
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
           <span className="hover-img">
-            <img src={fillerpic.imageUrl} className="card-img-top" alt="..."></img>
+            <img src={mindreadergif.imageUrl} className="card-img-top" alt="..."></img>
           </span>
         </div>
         <div className="card-body">
           <h5 className="card-title">Mind Reader</h5>
           <p className="card-text">A fortune-teller that utilizes state manipulation to change page views.</p>
-          <a href="#">Visit site</a>
+          <a href="https://ah1096.github.io/mind-reader/">Visit site</a>
         </div>
       </div>
     </div>
