@@ -1,4 +1,7 @@
 import him from './images/him.jpg';
+import todo from './images/todolist.gif';
+import alarm from './images/alarmclock.gif';
+import neighborly from './images/neighborly.gif';
 
 const fillerpic = {
     name: 'fillerpic',
@@ -7,6 +10,26 @@ const fillerpic = {
     imageWidth: 300,
 };
 
+const todogif = {
+  name: 'todogif',
+  imageUrl: todo,
+  imageheight: 300,
+  imageWidth: 300,
+}
+
+const alarmgif = {
+  name: 'alarmgif',
+  imageUrl: alarm,
+  imageHeight: 300,
+  imageWidth: 300,
+}
+
+const neighborlygif = {
+  name: 'neighborlygif',
+  imageUrl: neighborly,
+  imageHeight: 300,
+  imageWidth: 300,
+}
 
 export default function Projects(){
     return(
@@ -24,7 +47,7 @@ export default function Projects(){
 
               <div className="col-md-4">
                 {/* <span className="hover-imgBW"> */}
-                  <img src={fillerpic.imageUrl} className="img-fluid rounded-start" alt="..."></img>
+                  <img src={neighborlygif.imageUrl} className="img-fluid rounded-start" alt="..."></img>
                 {/* </span> */}
               </div>
 
@@ -52,9 +75,10 @@ export default function Projects(){
 
                 <h2 className="card-title">Weather App</h2>
                 <p className="card-text">The first "real" project that I made for Awesome Inc's bootcamp, 
-                                        refactored with cleaner code and more design features.
-                                        View your current location's weather or search for a different location.</p>
-                <a className="card-text"><small className="text-muted" href="#">Link to project webpage</small></a>
+                                        a weather app that uses the OpenWeather API and dynamically renders all information 
+                                        on the page with Javascript.
+                                        Enter a valid ZIP code to view the weather for that location.</p>
+                <a href="https://ah1096.github.io/weather-app/" target="_blank" rel="noopener noreferrer" className="card-text"><small className="text-muted">Link to project webpage</small></a>
               </div>
             </div>
 
@@ -78,20 +102,20 @@ export default function Projects(){
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
           <span className="hover-img">
-            <img src={fillerpic.imageUrl} className="card-img-top" alt="..."></img>
+            <img src={alarmgif.imageUrl} className="card-img-top" alt="..."></img>
           </span>
         </div>
         <div className="card-body">
-          <h5 className="card-title">Tic Tac Toe</h5>
-          <p className="card-text">A simple tic tac toe game coded in Javascript, styled in my Heartbreaker palette.</p>
-          <a href="#">Visit site</a>
+          <h5 className="card-title">Alarm Clock</h5>
+          <p className="card-text">A simple alarm clock application with date selection coded in JavaScript.</p>
+          <a href="https://ah1096.github.io/alarm-clock/">Visit site</a>
         </div>
       </div>
 
       <div id="projectCardSmall" className="container card col-4 mx-auto">
         <div className="d-flex justify-content-center">
           <span className="hover-img">
-            <img src={fillerpic.imageUrl} className="card-img-top" alt="..."></img>
+            <img src={todogif.imageUrl} className="card-img-top" alt="..."></img>
           </span>
         </div>
         <div className="card-body">

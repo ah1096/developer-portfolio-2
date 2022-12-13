@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
 
 <div classNameName="navbar">
-        {/* ASK JOSH WHY ^^ THIS ^^ IS A THING??? classNameName works but className doesn't??? */}
+
     <nav id="navbar" className="navbar navbar-expand-lg">
 
         <div className="container-fluid">
