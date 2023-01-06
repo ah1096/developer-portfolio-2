@@ -39,14 +39,10 @@
   }
 }
 
+#language-toggle li{
+  float: right;
+}
+
 #skill-list{
   columns: 2;
-}
-
-#projectCard{
-  max-width: 540px;
-}
-
-#projectCardSmall{
-  width: 18rem;
-}
+  }
