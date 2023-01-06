@@ -8,13 +8,7 @@ import Footer from './Footer.js'
 
 function App() {
   return (
-    <div className="App"> 
-      <Navbar/>
-      <AboutMe/>
-      <Projects/>
-      {/* <BlogPosts/> */}
-      <ContactMe/>
-      <Footer/>
+
     </div>
   )
 }
