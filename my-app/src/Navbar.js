@@ -1,10 +1,14 @@
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Navbar() {
     return (
 
 <div classNameName="navbar">
-        {/* ASK JOSH WHY ^^ THIS ^^ IS A THING??? classNameName works but className doesn't??? */}
+
     <nav id="navbar" className="navbar navbar-expand-lg">
 
         <div className="container-fluid">
@@ -37,13 +41,23 @@ export default function Navbar() {
 
               </ul>
 
-              <div className="form-check form-switch">
-                <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"></input>
-                <label id="langToggle" className="form-check-label" htmlFor="flexSwitchCheckDefault"></label>
-              </div>
+            {/* Get help on the language toggle */}
+              <ul id="language-toggle" classname="mt-4">
+                <li className="d-inline">🇯🇵</li>
+                <li className="d-inline">
+                  <div className="form-check form-switch me-0">
+                    <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"></input>
+                    <label id="langToggle" className="form-check-label" htmlFor="flexSwitchCheckDefault"></label>
+                  </div>
+                </li>
+                <li className="d-inline">🇬🇧</li>
+              </ul>
+
 
               <div className="d-flex">
-                <button className="btn btn-outline-light" type="submit">resumé</button>
+                <button className="btn btn-outline-light" type="submit">
+                  resumé <FontAwesomeIcon icon={faDownload} />
+                  </button>
               </div>
 
             </div>

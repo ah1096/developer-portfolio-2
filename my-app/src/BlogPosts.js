@@ -10,14 +10,14 @@ const fillerpic = {
 
 export default function BlogPosts(){
     return(
-<div>
+<div className="vh-100" id="BlogSection">
     <div className="px-4 py-5 my-5 ">
 
         <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row-reverse  g-5 py-5">
 
                 <div className="col-lg-6">
-                    <h1 className="display-5 fw-bold lh-1 mb-3" id="BlogSection">Blog Posts</h1>
+                    <h1 className="display-5 fw-bold lh-1 mb-3">Blog Posts</h1>
                         <div>
                             <p>Follow my journey in learning web development.</p>
                             <p>See my most recent post on the left, or click the link below to view previous entries.</p>
